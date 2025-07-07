@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="icon" href="/SpotifyClone/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utility.css">
+</head>
+
+<body class="roboto">
+    <div class="container">
+        <div class="nav m-1 flex">
+            <img src="icons/icon.svg" alt="Spotify" class="invert">
+            <div class="homediv circle greybg flex align-items justify-content">
+                <img src="icons/home.svg" alt="home" class="invert">
+            </div>
+            <div class="searchdiv greybg flex align-items">
+                <img src="icons/search.svg" alt="search" class="invert search-icon">
+                <input type="text" placeholder="Search songs..." />
+            </div>
+        </div>
+        <div class="innercontainer flex">
+            <div class="left m-1 greybg corner">
+                <div class="leftupper">
+                    <div class="cross">
+                        <img src="icons/cross.svg" alt="">
+                    </div>
+                    <h1 class="heading m-1">Your Library</h1>
+                    <div class="playlistcard card m-1">
+                        <h1 class="heading">Create your first playlist</h1>
+                        <p>It's easy, we'll help you</p>
+                        <button class="m-top">Create playlist</button>
+                    </div>
+                    <div class="podcast card m-1">
+                        <h1 class="heading">Let's find some podcasts to follow</h1>
+                        <p>We'll keep you updated on new episodes</p>
+                        <button class="m-top">Browse podcast</button>
+                    </div>
+                </div>
+                <div class="leftfooter">
+                    <div>
+                        <a href="https://www.spotify.com/in-en/legal/">
+                            <span>Legal</span>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="https://www.spotify.com/in-en/safetyandprivacy/">
+                            <span>Safety &amp; Privacy Center</span>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="https://www.spotify.com/in-en/legal/privacy-policy/">
+                            <span>Privacy Policy</span>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="https://www.spotify.com/in-en/legal/cookies-policy/">
+                            <span>Cookies</span>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="https://www.spotify.com/in-en/legal/privacy-policy/#s3">
+                            <span>About Ads</span>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="https://www.spotify.com/in-en/accessibility/">
+                            <span>Accessibility</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="right greybg corner">
+                <div class="hamburger corner">
+                    <img src="icons/hamburger.svg" alt="Menu" class="hamburger-icon">
+                    <p class="heading">Your Library</p>
+                </div>
+                <p class="right-heading heading">Trending Songs</p>
+                <div class="trends">
+                    <ul class="songUl">
+                        <li class="songLi hidden">
+                            <div class="first">
+                                <div class="art">
+                                    <div class="play circle flex align-items justify-content">
+                                        <svg class="play-icon" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+                                            <polygon points="16,12 16,36 36,24" />
+                                        </svg>
+                                    </div>
+                                </div>
+                                <h2>Name of the song</h2>
+                                <p>Artists name</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="playbar corner">
+                    <div class="aboveSeek">
+                        <div class="infocontainer flex">
+                            <div class="infoimage corner"></div>
+                            <div class="info">Select any of the above to play</div>
+                        </div>
+                        <div class="songduration">00:00 / 00:00</div>
+                    </div>
+                    <div class="seekbar">
+                        <div class="seek circle"></div>
+                    </div>
+                    <div class="songbuttons">
+                        <img id="prev" src="icons/prevbutton.svg" alt="" class="invert">
+                        <img id="play" src="icons/playbutton.svg" alt="" class="invert">
+                        <img id="next" src="icons/nextbutton.svg" alt="" class="invert">
+                    </div>
+                    <div class="volumebar">
+                        <div class="volumebarimage">
+                            <img src="icons/volume.svg" alt="Volume Icon">
+                        </div>
+                        <div class="range">
+                            <input type="range" min="0" max="100" value="100">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,41 @@
+.greybg {
+  background-color: #121212;
+}
+.hidden{
+  display: none;
+}
+.m-top{
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.m-1 {
+    margin: 10px;
+  }
+.heading{
+    font-size: 1.2rem;
+  font-weight: 700;
+}
+.flex {
+  display: flex;
+}
+.justify-content {
+  justify-content: center;
+}
+.align-item {
+  align-items: center;
+}
+.circle {
+  border-radius: 50%;
+}
+.corner {
+  border-radius: 7px;
+}
+.card{
+    border-radius: 7px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: #1f1f1f;
+}
