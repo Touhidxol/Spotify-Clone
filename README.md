@@ -77,7 +77,7 @@ No external frameworks. Pure HTML, CSS, and JavaScript!
 
 * This is a front-end only project.
 * All song files must be stored locally inside the `songs` directory.
-* Not affiliated with Spotify. Built for educational and portfolio purposes.
+* Built for educational and portfolio purposes only.
 
 
 ---
