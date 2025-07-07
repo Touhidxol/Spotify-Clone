@@ -39,7 +39,7 @@ You can use any local server (like Python, VSCode Live Server, etc.)
 
 #### Python 3 (quick method):
 
-# Start server at root of project
+Start server at root of project
 ```
 python -m http.server 3000
 ```
