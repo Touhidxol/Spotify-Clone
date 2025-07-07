@@ -54,8 +54,8 @@ SpotifyClone/
     └── ...
 ```
 
-If your song filenames have extra spaces at the beginning or end, the app may not function correctly.
-It's recommended to remove any leading or trailing spaces in song file names (e.g., " song1.mp3" ➝ "song1.mp3"), as this can cause issues when matching and playing songs.
+>If your song filenames have extra spaces at the beginning or end, the app may not function correctly.
+>It's recommended to remove any leading or trailing spaces in song file names (e.g., " song1.mp3" ➝ "song1.mp3"), as this can cause issues when matching and playing songs.
 
 
 ### 3. Open the app in your browser
