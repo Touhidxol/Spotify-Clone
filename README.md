@@ -12,10 +12,10 @@ A sleek, responsive front-end clone of Spotify built using **HTML**, **CSS**, an
 - ⌛ Seekbar with live updates
 - 📱 Responsive layout with hamburger menu for mobile
 - 🎨 Styled with custom utility classes and modern CSS
-
+```
 ## 📁 Project Structure
 
-```
+
 
 SpotifyClone/
 ├── index.html         # Main HTML layout
@@ -24,13 +24,13 @@ SpotifyClone/
 ├── script.js          # JavaScript for interactivity and logic
 └── icons/             # SVG icons used in the app
 
-````
+
 
 ## 🛠️ How to Use
 
 ### 1. Clone this repository
 
-```bash
+```
 git clone https://github.com/your-username/spotify-clone.git
 cd spotify-clone
 ````
@@ -41,7 +41,7 @@ You can use any local server (like Python, VSCode Live Server, etc.)
 
 #### Python 3 (quick method):
 
-```bash
+```
 # Start server at root of project
 python -m http.server 3000
 ```
@@ -66,9 +66,6 @@ http://127.0.0.1:3000/SpotifyClone/
 
 > The music list is fetched from `/SpotifyClone/songs/` based on available `.mp3` files.
 
-## 📸 Screenshots
-
-> *(Add screenshots here of the UI in action, desktop and mobile views)*
 
 ## 📦 Dependencies
 
@@ -80,13 +77,10 @@ No external frameworks. Pure HTML, CSS, and JavaScript!
 * All song files must be stored locally inside the `songs` directory.
 * Not affiliated with Spotify. Built for educational and portfolio purposes.
 
-## 📄 License
-
-MIT License
 
 ---
 
 Made with ❤️ by \Touhid
 
-```
+
 
