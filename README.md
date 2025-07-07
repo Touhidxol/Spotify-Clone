@@ -1,5 +1,5 @@
 # Spotify-Clone
-```
+
 # 🎵 Spotify Clone
 
 A sleek, responsive front-end clone of Spotify built using **HTML**, **CSS**, and **JavaScript**. This clone mimics the layout and core music playback functionalities of Spotify, including interactive playlists, playbar controls, and a dynamic song list rendered from a local server.
@@ -12,11 +12,9 @@ A sleek, responsive front-end clone of Spotify built using **HTML**, **CSS**, an
 - ⌛ Seekbar with live updates
 - 📱 Responsive layout with hamburger menu for mobile
 - 🎨 Styled with custom utility classes and modern CSS
-```
+
 ## 📁 Project Structure
-
-
-
+```
 SpotifyClone/
 ├── index.html         # Main HTML layout
 ├── style.css          # Main stylesheet
@@ -24,7 +22,7 @@ SpotifyClone/
 ├── script.js          # JavaScript for interactivity and logic
 └── icons/             # SVG icons used in the app
 
-
+```
 
 ## 🛠️ How to Use
 
@@ -41,8 +39,8 @@ You can use any local server (like Python, VSCode Live Server, etc.)
 
 #### Python 3 (quick method):
 
-```
 # Start server at root of project
+```
 python -m http.server 3000
 ```
 
@@ -55,6 +53,10 @@ SpotifyClone/
     ├── Song2.mp3
     └── ...
 ```
+
+If your song filenames have extra spaces at the beginning or end, the app may not function correctly.
+It's recommended to remove any leading or trailing spaces in song file names (e.g., " song1.mp3" ➝ "song1.mp3"), as this can cause issues when matching and playing songs.
+
 
 ### 3. Open the app in your browser
 
